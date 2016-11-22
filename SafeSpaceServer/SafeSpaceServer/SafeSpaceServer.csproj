@@ -50,6 +50,8 @@
     <Compile Include="Resource.cs" />
     <Compile Include="Tile.cs" />
     <Compile Include="Map.cs" />
+    <Compile Include="TmxMap.cs" />
+    <Compile Include="TmxParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

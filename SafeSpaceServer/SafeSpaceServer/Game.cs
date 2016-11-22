@@ -23,6 +23,7 @@ namespace SafeSpaceServer
                     players.Add(player);
 
                     Thread thread = new Thread(player.Communicate);
+                    thread.Start(); 
                 }
             }
         }
